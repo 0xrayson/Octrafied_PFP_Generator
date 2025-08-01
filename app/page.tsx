@@ -219,7 +219,7 @@ function OctrafiedApp() {
               disabled={!username.trim() || !image}
               className="w-full bg-[#0d0bda] hover:bg-[#0a09b8] disabled:bg-gray-400 disabled:cursor-not-allowed text-white px-4 py-3 rounded-md transition-colors font-medium"
             >
-              Generate Card
+              Generate PFP
             </button>
           </form>
         </div>
@@ -252,7 +252,7 @@ function OctrafiedApp() {
               onClick={handleReset}
               className="w-full bg-gray-500 hover:bg-gray-600 text-white px-4 py-3 rounded-md transition-colors font-medium"
             >
-              Create Another Card
+              Create Another 
             </button>
           </div>
         </div>
